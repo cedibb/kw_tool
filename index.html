@@ -48,85 +48,8 @@ Error generating stack: `+o.message+`
 `)},dp=e=>encodeURI(fp(e)),pp=({json:e})=>{const t=dp(e);return D("a",{href:`data:text/csv;charset=utf-8,${t}`,target:"_blank",download:"results.csv",rel:"noreferrer",children:D("button",{type:"button",children:"Download Selected"})})};const mp=()=>{const{setSeedKeywords:e,isLoading:t,suggestions:n,toggleSelectKeyword:r}=cp(),{available:l,selected:o,discarded:i}=n;return _t("div",{className:"App",children:[_t(Er,{style:{display:"flex",justifyContent:"space-around"},children:[D("h2",{children:"eCommerce SEO Tool"}),D(Ad,{onSearch:u=>{e([u])}})]}),_t("div",{style:{display:"flex",justifyContent:"space-around"},children:[D(Er,{style:{width:"100%",height:"500px"},children:t?D(Zd,{}):D(Jl,{items:l,onRowClick:u=>{r(u.keyword)}})}),D(Er,{style:{width:"100%",height:"500px"},children:D(Gd,{data:[{title:"Selected",content:D(Jl,{items:o,onRowClick:u=>{r(u.keyword)}})},{title:"Discarded",content:D(Jl,{items:i,onRowClick:u=>{r(u.keyword)}})}]})})]}),_t(Er,{children:[D("button",{onClick:()=>{const u=o.map(s=>s.keyword);e(u)},children:"Suggest more"}),D(pp,{json:o})]})]})};bl.createRoot(document.getElementById("root")).render(D(Nc.StrictMode,{children:D(mp,{})}));
 
     </script>
-    <style>
-      ._card_1e04k_1 {
-        background-color: #f6f6f6;
-        border-radius: 5px;
-        margin: 1.5rem;
-        overflow-y: scroll;
-        padding: 2rem;
-      }
-      ._row_1etyx_1 {
-        cursor: pointer;
-      }
-      ._table_1ulja_1 {
-        width: 100%;
-      }
-      ._tabs_13lq4_1 {
-        display: flex;
-      }
-      ._tab_13lq4_1 {
-        border: 0;
-        cursor: pointer;
-        padding: 0.5rem;
-        width: 100%;
-      }
-      ._active_13lq4_23 {
-        border-bottom: 2px solid black;
-      }
-      #root {
-        max-width: 1280px;
-        margin: 0 auto;
-        padding: 2rem;
-        text-align: center;
-      }
-      .logo {
-        height: 6em;
-        padding: 1.5em;
-        will-change: filter;
-      }
-      .logo:hover {
-        filter: drop-shadow(0 0 2em #646cffaa);
-      }
-      .logo.react:hover {
-        filter: drop-shadow(0 0 2em #61dafbaa);
-      }
-      @keyframes logo-spin {
-        0% {
-          transform: rotate(0);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
-      @media (prefers-reduced-motion: no-preference) {
-        a:nth-of-type(2) .logo {
-          animation: logo-spin infinite 20s linear;
-        }
-      }
-      .card {
-        padding: 2em;
-      }
-      .read-the-docs {
-        color: #888;
-      }
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      :root {
-        background-color: #242424;
-        font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-        font-size: 16px;
-        font-synthesis: none;
-        font-weight: 400;
-        line-height: 24px;
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-text-size-adjust: 100%;
-      }
+    <style>._card_1j8lk_1{background-color:#f6f6f6;border-radius:5px;margin:1.5rem;overflow-y:scroll;padding:2rem}._row_27jjx_1{cursor:pointer}._table_o6uje_1{width:100%}._tabs_rl4hb_1{display:flex}._tab_rl4hb_1{border:0;cursor:pointer;padding:.5rem;width:100%}._active_rl4hb_12{border-bottom:2px solid black}#root{max-width:1280px;margin:0 auto;padding:2rem;text-align:center}.logo{height:6em;padding:1.5em;will-change:filter}.logo:hover{filter:drop-shadow(0 0 2em #646cffaa)}.logo.react:hover{filter:drop-shadow(0 0 2em #61dafbaa)}@keyframes logo-spin{0%{transform:rotate(0)}to{transform:rotate(360deg)}}@media (prefers-reduced-motion: no-preference){a:nth-of-type(2) .logo{animation:logo-spin infinite 20s linear}}.card{padding:2em}.read-the-docs{color:#888}*{box-sizing:border-box;margin:0;padding:0}:root{background-color:#242424;font-family:Inter,Avenir,Helvetica,Arial,sans-serif;font-size:16px;font-synthesis:none;font-weight:400;line-height:24px;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}
+
     </style>
   </head>
   <body>
